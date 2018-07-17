@@ -146,7 +146,8 @@ body {
 
  .HTML, .CSS, .js, .jq, .react, .gh {
    height: 20px;
-   background-color: rgb(140, 67, 255);
+   background-color: #293347;
+   border: 2px solid  rgb(140, 67, 255, 0.6);
    width: 80%;
  }
 
@@ -282,6 +283,23 @@ body {
   box-shadow: 0 0 0 3px rgba(255, 255, 255, .7) !important;
 }
 
+.github {
+  text-align: center;
+}
+
+.github button {
+  padding: 10px 60px;
+  border-color: rgb(140, 67, 255) !important;
+  border-radius:  3%;
+  background-color: #293347;
+  color: white;
+  margin-top: 30px;
+  font-size: 1.2rem;
+}
+
+.github button:hover {
+  cursor: pointer;
+}
 
 /* FOOTER */
 
