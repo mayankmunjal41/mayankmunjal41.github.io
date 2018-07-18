@@ -663,7 +663,7 @@ top: 80%;
 
   .projects {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding: 0;
     margin: 0 auto !important;
   }
@@ -672,6 +672,7 @@ top: 80%;
     padding: 10px 20px;
     width: 80%;
     font-size: 1rem;
+    margin-top: -70px;
   }
 
   .photo-overlay {
@@ -690,6 +691,11 @@ top: 80%;
     margin-top: 20px;
   }
 
+
+  .hmu .mt-5 {
+    margin-top: 4rem !important;
+  }
+
   .footer {
     border-radius: 1%;
     margin-top: 12rem;
@@ -697,7 +703,7 @@ top: 80%;
     height: 60%;
   }
 
-  .hmu {
+  .hmu  {
     top: -10rem;
     width: 60%;
     font-size: 1rem;
