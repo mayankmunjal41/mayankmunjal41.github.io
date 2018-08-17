@@ -647,8 +647,6 @@ top: 80%;
 
   .HTML, .CSS, .js, .jq, .react, .gh {
     height: 20px;
-    background-color: rgb(140, 67, 255);
-    width: 80%;
     padding-left: 20px !important;
   }
 
